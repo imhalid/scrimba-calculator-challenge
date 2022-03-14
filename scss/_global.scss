@@ -68,7 +68,12 @@ h6 {
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
-  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  background-image: linear-gradient(
+    35deg,
+    #ed750c 0%,
+    #f6c165 51%,
+    #fff58a 100%
+  );
 }
 
 .metrics {
