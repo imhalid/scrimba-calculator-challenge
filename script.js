@@ -1,4 +1,4 @@
-let value = document.getElementById("value");
+// let value = document.getElementById("value");
 
 let length = document.getElementById("length");
 let volume = document.getElementById("volume");
@@ -12,6 +12,11 @@ function result() {
 
 function generator() {
   value = inputValue.value;
+
+  if (value == "") {
+    value = 0;
+  }
+
   //length
   // 20 meters = 65.616 feet | 20 feet = 6.096 meters
 
