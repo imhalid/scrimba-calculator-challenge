@@ -1,4 +1,4 @@
 # scrimba-calculator-challenge
 scrimba calculator challenge
 
-[img](screenshot.png)
+![alt text](screenshot.png)
