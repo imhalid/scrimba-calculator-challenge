@@ -82,7 +82,7 @@ h6 {
   align-items: center;
   background-image: linear-gradient(
     35deg,
-    #050055 0%,
+    #020024 0%,
     #090979 35%,
     #00d4ff 100%
   );
@@ -97,10 +97,15 @@ h6 {
   align-content: center;
 }
 
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 input {
   text-align: center;
   height: 99px;
-  width: 300px;
+
+  width: 350px;
 
   border-radius: 0.625rem;
   background: #00d4ff10;
@@ -109,7 +114,7 @@ input {
   font-weight: 800;
   font-size: 3rem;
   color: whitesmoke;
-  caret-color: #d1c5ff9d;
+  caret: #ff7a18 underscore;
 
   &::placeholder {
     color: #e6e6e673;
